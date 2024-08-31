@@ -935,7 +935,7 @@ ul.slick-dots {
 /* Footer Style */
 
 footer {
-	background-color: #232323;
+	background-color: #121212;
 	padding: 80px 0px;
 	color: #fff;
 }
@@ -1269,6 +1269,34 @@ footer .contact-form button.filled-button:hover {
 	font-size: 15px;
 }
 
+/* Styling for the black background div */
+.black-background-div {
+    background-color: black;
+    padding: 20px; /* Optional: Adjusts spacing within the div */
+    display: flex; /* Centers the button */
+    justify-content: center; /* Centers the button horizontally */
+    align-items: center; /* Centers the button vertically */
+    height: 100vh; /* Optional: Makes the div take full viewport height */
+}
+
+/* Styling for the round href button */
+.round-button {
+    display: inline-block;
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid white; /* Optional: Adds a white border around the button */
+    text-align: center; /* Centers content inside the button */
+    background-color: white; /* Optional: Background color of the button */
+}
+
+/* Ensuring the image fits within the round button */
+.round-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 
 
@@ -1278,6 +1306,45 @@ footer .contact-form button.filled-button:hover {
 		display: none;
 	}
 	/* styles.css */
+/* Styling for the black background div */
+.black-background-div {
+    background-color: rgb(18, 18, 18);
+    padding: 20px; /* Optional: Adjusts spacing within the div */
+    display: flex; /* Centers the button */
+    justify-content: center; /* Centers the button horizontally */
+    align-items: center; /* Centers the button vertically */
+    height: 25vh; /* Optional: Makes the div take full viewport height */
+	border: #121212;
+}
+
+/* Styling for the round href button */
+.round-button {
+    display: inline-block;
+    width: 175px; /* Adjust as needed */
+    height: 175px; /* Adjust as needed */
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid rgb(57, 57, 57); /* Optional: Adds a white border around the button */
+    text-align: center; /* Centers content inside the button */
+    background-color: white; /* Optional: Background color of the button */
+}
+.round-button:hover img {
+    transform: scale(1.2); /* Further zoom on hover */
+}
+/* Ensuring the image fits within the round button */
+.round-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.black-white-text {
+	background-color: #121212;
+    color: white;
+    font-size: 24px;
+	margin-top: 0px; /* Adjust as needed */
+    margin-bottom: 0px; /* Adjusts spacing between the text and the button */
+	text-align: center;
+}
 
 .video-container {
     display: flex;
