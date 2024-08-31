@@ -1356,6 +1356,10 @@ footer .contact-form button.filled-button:hover {
 		border-bottom: 1px solid #343434;
 		margin-bottom: 30px;
 		padding-bottom: 30px;
+		align-items: right;
+		align-content: right;
+		align-self: right;
+		text-align: center;
 	}
 	footer .last-item {
 		border-bottom: none;
