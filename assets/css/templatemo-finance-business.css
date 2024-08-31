@@ -500,7 +500,20 @@ ul.slick-dots {
   overflow:hidden;
   animation:fadeOutLeft 1s both;
 }
-
+.Modern-Slider .item h2 {
+	text-align: right;
+  position: relative;
+  top: -80%;
+  transform: translateY(-25%);
+  margin-bottom: 300px;
+  text-transform: uppercase;
+  font-size: 44px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  color:#FFF;
+  overflow:hidden;
+  animation:fadeOutLeft 1s both;
+}
 .Modern-Slider .item p {
 	max-width: 570px;
 	color: #fff;
@@ -521,7 +534,9 @@ ul.slick-dots {
 .Modern-Slider .item.slick-active h4{
   animation:fadeInLeft 1s both 1.5s;
 }
-
+.Modern-Slider .item.slick-active h2{
+	animation:fadeInLeft 1s both 1.5s;
+  }
 .Modern-Slider .item.slick-active{
   animation:Slick-FastSwipeIn 1s both;
 }
@@ -1274,7 +1289,19 @@ footer .contact-form button.filled-button:hover {
 		line-height: 36px !important;
 		letter-spacing: 1px !important;
 	  }
-	  
+	  .Modern-Slider .item h2 {
+		position: relative !important;
+		top: -80% !important;
+		transform: translateY(-25%) !important;
+		font-size: 32px !important;
+		line-height: 36px !important;
+		letter-spacing: 1px !important;
+		text-shadow: 
+        -0.75px -0.75px 0 black,  
+        0.75px -0.75px 0 black,
+        -0.75px 0.75px 0 black,
+        0.75px 0.75px 0 black; /* Creates the black border around the text */
+	  }
 	.Modern-Slider .item p {
 		max-width: 570px;
 		line-height: 25px;
