@@ -35,6 +35,16 @@ h5.black {
         -0.45px 0.45px 0 black,
         0.45px 0.45px 0 black; /* Creates the black border around the text */
 }
+h5.black-marketing {
+	position: relative;
+	top: 120px;
+    color: white; /* Text color */
+    text-shadow: 
+        -0.45px -0.45px 0 black,  
+        0.45px -0.45px 0 black,
+        -0.45px 0.45px 0 black,
+        0.45px 0.45px 0 black; /* Creates the black border around the text */
+}
 h2.black {
     color: white; /* Text color */
     text-shadow: 
@@ -63,8 +73,27 @@ a.filled-button {
   position: relative;
   text-align: right;
 }
+a.filled-button2 {
+	
+	background-color: #a4c639;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 12px 30px;
+	border-radius: 30px;
+	display: inline-block;
+	transition: all 0.3s;
+	top: -145px;
+  position: relative;
+  text-align: right;
+}
 
 a.filled-button:hover {
+	background-color: #fff;
+	color: #a4c639;
+}
+a.filled-button2:hover {
 	background-color: #fff;
 	color: #a4c639;
 }
@@ -513,6 +542,21 @@ ul.slick-dots {
   color:#FFF;
   overflow:hidden;
   animation:fadeOutLeft 1s both;
+}
+.Modern-Slider .item h2.marketing {
+	text-align: right;
+  position: relative;
+  top: -80%;
+  transform: translateY(-25%);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 44px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  color:#FFF;
+  overflow:hidden;
+  animation:fadeOutLeft 1s both;
+  
 }
 .Modern-Slider .item p {
 	max-width: 570px;
@@ -1377,7 +1421,7 @@ footer .contact-form button.filled-button:hover {
 	  }
 	  .Modern-Slider .item h2 {
 		position: relative !important;
-		top: -80% !important;
+		top: -80% ;
 		transform: translateY(-25%) !important;
 		font-size: 32px !important;
 		line-height: 36px !important;
@@ -1388,6 +1432,21 @@ footer .contact-form button.filled-button:hover {
         -0.75px 0.75px 0 black,
         0.75px 0.75px 0 black; /* Creates the black border around the text */
 	  }
+	  .Modern-Slider .item h2.marketing {
+		text-align: right;
+	  position: relative;
+	  top: -150px;
+	  transform: translateY(-25%);
+	  margin-bottom: 10px;
+	  text-transform: uppercase;
+	  font-size: 44px;
+	  font-weight: 700;
+	  letter-spacing: 2.5px;
+	  color:#FFF;
+	  overflow:hidden;
+	  animation:fadeOutLeft 1s both;
+	  
+	}
 	.Modern-Slider .item p {
 		max-width: 570px;
 		line-height: 25px;
