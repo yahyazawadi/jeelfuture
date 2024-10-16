@@ -1321,6 +1321,8 @@ footer .contact-form button.filled-button:hover {
     justify-content: center; /* Centers the button horizontally */
     align-items: center; /* Centers the button vertically */
     height: 100vh; /* Optional: Makes the div take full viewport height */
+
+    border-bottom: 25px solid #242424;
 }
 
 /* Styling for the round href button */
@@ -1385,8 +1387,8 @@ footer .contact-form button.filled-button:hover {
 	background-color: #242424;
     color: white;
     font-size: 24px;
-	margin-top: 0px; /* Adjust as needed */
-    margin-bottom: 0px; /* Adjusts spacing between the text and the button */
+	border-top: 20px solid #242424; /* Replace 20px with your desired margin value */
+    border-bottom: 10px solid #242424;
 	text-align: center;
 }
 
