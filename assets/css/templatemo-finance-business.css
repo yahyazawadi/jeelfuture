@@ -57,7 +57,27 @@ h2.black {
 h1,h2,h3,h4,h5,h6 {
 	margin: 0px;
 }
-
+.divider {
+	width: 80%;
+	height: 1px;
+	background-color: #ccc;
+	margin: 20px auto;
+}
+.filled-button {
+	
+	background-color: #a4c639;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 12px 30px;
+	border-radius: 30px;
+	display: inline-block;
+	transition: all 0.3s;
+	top: 20%;
+  position: relative;
+  text-align: right;
+}
 a.filled-button {
 	
 	background-color: #a4c639;
@@ -453,6 +473,18 @@ header .navbar {
 
 .Modern-Slider .item-5 .img-fill {
 	background-image: url(../images/slide_05.jpg);
+}
+.Modern-Slider .item-6 .img-fill {
+	background-image: url(../images/slide_06.jpg);
+}
+.Modern-Slider .item-7 .img-fill {
+	background-image: url(../images/slide_07.jpg);
+}
+.Modern-Slider .item-8 .img-fill {
+	background-image: url(../images/slide_08.jpg);
+}
+.Modern-Slider .item-9 .img-fill {
+	background-image: url(../images/slide_09.jpg);
 }
 .Modern-Slider .NextArrow{
   position:absolute;
