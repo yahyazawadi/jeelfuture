@@ -74,26 +74,36 @@ h1,h2,h3,h4,h5,h6 {
 	border-radius: 30px;
 	display: inline-block;
 	transition: all 0.3s;
-	top: 20%;
-  position: relative;
-  text-align: right;
+	top: 375px !important;          /* Set the distance from the top of the parent */
+	right: 2px !important;         /* Set the distance from the left of the parent */
+	text-align: center;
+	position: absolute;
 }
 a.filled-button {
 	
-	background-color: #a4c639;
+	background-color: #a4c639 !important; 
 	color: #fff;
-	font-size: 20px;
+	font-size: 20px !important;
 	text-transform: uppercase;
 	font-weight: 700;
-	padding: 12px 30px;
-	border-radius: 30px;
+	padding: 12px 30px !important;
+	border-radius: 30px !important;
 	display: inline-block;
 	transition: all 0.3s;
-	top: 20%;
-  position: relative;
-  text-align: right;
+	position: absolute; /* Make the button absolute */
+	top: 375px !important;          /* Set the distance from the top of the parent */
+	right: 2px !important;         /* Set the distance from the left of the parent */
+	text-align: center;
+	position: absolute;
+	
+	
+	
+	
+	
+	
+	
 }
-a.filled-button2 {
+a.filled-button3 {
 	
 	background-color: #a4c639;
 	color: #fff;
@@ -105,6 +115,7 @@ a.filled-button2 {
 	display: inline-block;
 	transition: all 0.3s;
 	top: -145px;
+	right: 3px;
   position: relative;
   text-align: right;
 }
@@ -113,7 +124,7 @@ a.filled-button:hover {
 	background-color: #fff;
 	color: #a4c639;
 }
-a.filled-button2:hover {
+a.filled-button3:hover {
 	background-color: #fff;
 	color: #a4c639;
 }
@@ -564,7 +575,7 @@ ul.slick-dots {
 .Modern-Slider .item h2 {
 	text-align: right;
   position: relative;
-  top: -80%;
+  top: -40%;
   transform: translateY(-25%);
   margin-bottom: 300px;
   text-transform: uppercase;
@@ -1454,11 +1465,12 @@ footer .contact-form button.filled-button:hover {
 	  }
 	  .Modern-Slider .item h2 {
 		position: relative !important;
-		top: -80% ;
+		top: -20px ;
 		transform: translateY(-25%) !important;
 		font-size: 32px !important;
 		line-height: 36px !important;
 		letter-spacing: 1px !important;
+		
 		text-shadow: 
         -0.75px -0.75px 0 black,  
         0.75px -0.75px 0 black,
