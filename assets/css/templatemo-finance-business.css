@@ -63,6 +63,28 @@ h1,h2,h3,h4,h5,h6 {
 	background-color: #ccc;
 	margin: 20px auto;
 }
+.data-button {
+	background-color: #a4c639;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 12px 30px;
+	border-radius: 400px;
+	transition: all 0.3s;
+	text-align: center;
+	
+    display: block;
+     /* Centers the button horizontally and adds margin above and below */
+    text-decoration: none; /* Removes underline from the link */
+	margin: 20px auto; /* Centers the button horizontally */
+	position: relative; /* Change to relative for centering */
+}
+
+.data-button:hover {
+	background-color: #fff;
+	color: #a4c639;
+}
 .filled-button {
 	
 	background-color: #a4c639;
@@ -1396,6 +1418,28 @@ footer .contact-form button.filled-button:hover {
 	}
 	/* styles.css */
 /* Styling for the black background div */
+.data-button {
+	background-color: #a4c639;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 12px 30px;
+	border-radius: 400px;
+	transition: all 0.3s;
+	text-align: center;
+	
+    display: block;
+     /* Centers the button horizontally and adds margin above and below */
+    text-decoration: none; /* Removes underline from the link */
+	margin: 20px auto; /* Centers the button horizontally */
+	position: relative; /* Change to relative for centering */
+}
+
+.data-button:hover {
+	background-color: #a4c639;
+	color: #fff;
+}
 .black-background-div {
     background-color: #242424;
     padding: 20px; /* Optional: Adjusts spacing within the div */
