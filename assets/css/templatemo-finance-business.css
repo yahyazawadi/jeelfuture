@@ -1408,6 +1408,102 @@ footer .contact-form button.filled-button:hover {
     height: 100%;
     object-fit: cover;
 }
+/*.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 560px; 
+  margin: 0 auto;
+  padding-top: 56.25%; 
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}*/
+
+
+ 
+  .video-container {
+    background-color: #a4c639 !important; /* Soft grey */
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh; /* More vertical space for desktop */
+  }
+  .video-container iframe {
+    width: auto;
+    height: 100%;
+    max-width: 90vw;
+    max-height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    aspect-ratio: 16 / 9;
+    display: block;
+  }
+
+  /* Center the 'تواصل معنا' section text */
+  .request-form h5 {
+    text-align: center;
+    width: 100%;
+  }
+
+  /* Reorganize footer layout */
+  footer .footer-item {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .sub-footer .container .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sub-footer p {
+    text-align: center;
+  }
+
+
+/* Optional: smooth background between sections */
+.video-container + .video-container {
+  margin-top: 40px;
+}
+
+ /* Reorganize footer layout */
+ footer .footer-item {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .sub-footer .container .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sub-footer p {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  /* Ensure stacked footer layout */
+  #footer .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #footer .footer-item {
+    margin-bottom: 20px;
+  }
 
 
 
@@ -1417,7 +1513,31 @@ footer .contact-form button.filled-button:hover {
 		display: none;
 	}
 	/* styles.css */
+
+	.video-container {
+		background-color: #a4c639 !important; /* Soft grey */
+		margin: 30px auto;
+		padding: 30px;
+		border-radius: 12px;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 75vh; /* More vertical space for desktop */
+	  }
+	  .video-container iframe {
+		width: auto;
+		height: 100%;
+		max-width: 90vw;
+		max-height: 100%;
+		border-radius: 8px;
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+		aspect-ratio: 16 / 9;
+		display: block;
+	  }
+
 /* Styling for the black background div */
+
 .data-button {
 	background-color: #a4c639;
 	color: #fff;
